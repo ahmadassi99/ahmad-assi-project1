@@ -1,0 +1,46 @@
+:root {
+ --brand-primary :#0768AC;
+--brand-secondary :#03C180;
+--bg_default :#FFFFFF;
+--bg_body: #F0F9FF;
+--lines-color: #DDDDDD;
+--body-text :#333333;
+--heart-color: #DC143C;
+}
+.btn{
+    background-color: var(--bg_default);
+    border: 1px solid var(--lines-color);
+    border-radius: 0;
+    font-family: Nunito Sans;
+}
+.btn-circle{
+    width: 100px;
+    height: 30px;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 40px 10px 40px;
+}
+.space {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 8px;
+}
+h3{
+    font-family: Nunito Sans;
+    color: var(--brand-primary);
+    font-weight: 200;
+}
+.ionicon{
+    width: 15px;
+    height: 15px;
+    padding-right: 5px;
+}
