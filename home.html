@@ -1,26 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
-    <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
-</head>
-<body>
-    <header class="header">
-        <h3>Web Topics</h3>
-        <div class="space">
-            <button class="btn btn-circle">
-                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M160 136c0-30.62 4.51-61.61 16-88C99.57 81.27 48 159.32 48 248c0 119.29 96.71 216 216 216 88.68 0 166.73-51.57 200-128-26.39 11.49-57.38 16-88 16-119.29 0-216-96.71-216-216z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
-                Dark Mode
-            </button>
-            <button class="btn btn-circle">
-                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
-                Favourites
-            </button>
-        </div>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel='stylesheet' type='text/css' media='screen'
+            href='assets/css/style.css'>
+        <link href='https://fonts.googleapis.com/css?family=Nunito Sans'
+            rel='stylesheet'>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body class="main-body">
+        <!--first header-->
+        <header class="header">
+            <h3>Web Topics</h3>
+            <div class="space">
+                <button class="btn btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon"
+                        viewBox="0 0 512 512"><path
+                            d="M160 136c0-30.62 4.51-61.61 16-88C99.57 81.27 48 159.32 48 248c0 119.29 96.71 216 216 216 88.68 0 166.73-51.57 200-128-26.39 11.49-57.38 16-88 16-119.29 0-216-96.71-216-216z"
+                            fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="32" /></svg>
+                    Dark Mode
+                </button>
+                <button class="btn btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon"
+                        viewBox="0 0 512 512"><path
+                            d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z"
+                            fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="32" /></svg>
+                    Favourites
+                </button>
+            </div>
+        </header>
+        <!--shapeheader-->
+        <div class="shape">
+        <div class="triangle"></div>
+        <div class="triangle-2"></div>
+    </div>
     
-</body>
+        <!--second header-->
+        <header class="header-welcome">
+            <div class="welcome">
+                <h2 class="h2-welcome">Welcome To Our Website!</h2>
+                <h4 class="h4-welcome">We have a new design that's fresh,
+                    modern, and easy to use</h4>
+            </div>
+        </header>
+        <div class="body">
+            <!--serach bar-->
+            <div class="bar">
+                <div class="search-bar">
+                    <form>
+                     <input type="text" placeholder="Serach the Website...">
+                    </form>
+                </div>
+                <div class="search-buttons">
+                    <div class="select-button">
+                        <span class="select-span">Sort by:</span>
+                     <select class="select-list" name="sort" id="sort" >
+                            <option  value="none" >Default</option>
+                            <option value="rate">Rating</option>
+                            <option value="author-name">Author Name</option>
+                        </select>
+                    </div>
+                    <div class="select-button">
+                        <span class="select-span">Filter by:</span>
+                    <select class="select-list" name="sort" id="sort">
+                            <option value="none">Default</option>
+                            <option value="rate">Rating</option>
+                            <option value="author-name">Author Name</option>
+                        </select>
+                    </div>
+                    </div>
+            </div>
+
+            <div>
+                <h1>"24" Web Topics Found</h1>
+            </div>
+            <!--cards-->
+            <div class="cards-list">
+                <div class="card">
+
+                    <img src="assets/images/html.png" alt="Html">
+                    <div class="container">
+                        <h4><b>Web devlopment Languges</b></h4>
+                        <p>HTML</p>
+                        <div class="stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/ajax.gif" alt="Html">
+                    <div class="container">
+                        <h4><b>Web devlopment Languges</b></h4>
+                        <p>HTML</p>
+                        <div class="stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/analytics.png" alt="Html">
+                    <div class="container">
+                        <h4><b>Web devlopment Languges</b></h4>
+                        <p>HTML</p>
+                        <div class="stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa-regular fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="assets/images/angular.png" alt="Html">
+                    <div class="container">
+                        <h4><b>Web devlopment Languges</b></h4>
+                        <p>HTML</p>
+                        <div class="stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="assets/images/django.jpeg" alt="Html">
+                    <div class="container">
+                        <h4><b>Web devlopment Languges</b></h4>
+                        <p>HTML</p>
+                        <div class="stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
