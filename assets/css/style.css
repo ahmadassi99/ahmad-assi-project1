@@ -208,7 +208,7 @@ li {
 .cards-list {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
 }
 
@@ -217,7 +217,7 @@ li {
     margin-right: 15px;
     background-color: var(--bg_default);
     /* max-width: 300px; */
-    width: 18%;
+    width: 18.9%;
     margin-bottom: 30px;
 } 
 
@@ -227,7 +227,7 @@ li {
     margin-right: 15px;
     /* background-color: var(--bg_default-dark); */
     /* max-width: 300px; */
-    width: 18%;
+    width: 18.9%;
     margin-bottom: 30px;
 }
 
@@ -814,10 +814,10 @@ li {
 }
 @media only screen and (max-width: 1050px) {
     .cards-list .card-item {
-        width:30% ;
+        width:31% ;
     }
     .cards-list .card-item-dark{
-        width:30% ;
+        width:31% ;
     }
 /* css media for the detail page changes */
     .detail-body{
@@ -832,7 +832,13 @@ li {
     .topics-list{
         width: 40%;
     }
+    
     .header-row h2{
+        font-size: 1.2rem;
+        padding-left: 10px;
+        margin: 5px 0;
+    }
+    .header-row-dark h2{
         font-size: 1.2rem;
         padding-left: 10px;
         margin: 5px 0;
@@ -845,7 +851,14 @@ li {
         font-size: 0.9rem;
         padding-right: 0;
     }
+    .second-row-dark{
+        font-size: 0.9rem;
+        padding-right: 0;
+    }
     .second-row-last{
+        font-size: 0.9rem;
+    }
+    .second-row-last-dark{
         font-size: 0.9rem;
     }
     .card{
@@ -879,20 +892,25 @@ li {
     .footer-details-inner{
         font-size: 0.8rem;
     }
+    .footer-details-inner-dark{
+        font-size: 0.8rem;
+    }
     .copyright-detail{
         width: 15px;
         height: 15px;
-        
     }
-
+    .copyright-detail-dark{
+         width: 15px;
+        height: 15px;
+    }
     
 }
 @media only screen and (max-width: 910px) {
     .cards-list .card-item {
-        width:45% ;
+        width:47% ;
     }
     .cards-list .card-item-dark {
-        width:45% ;
+        width: 47% ;
     }
     
     
@@ -1002,12 +1020,18 @@ li {
     .topics-list{
         width: 95%;
         margin-bottom: 20px;
-        
     }
     .row{
         padding-left: 10px;
     }
+    .row-dark{
+        padding-left: 10px;
+    }
     .header-row h2{
+        font-size: 1.3rem;
+        padding-left: 15px;
+    }
+    .header-row-dark h2{
         font-size: 1.3rem;
         padding-left: 15px;
     }
@@ -1019,10 +1043,17 @@ li {
         font-size: 1rem;
         padding-right: 0px;
     }
+    .second-row-dark{
+        font-size: 1rem;
+        padding-right: 0px;
+    }
     .row-last{
         padding-left: 10px;
     }
     .second-row-last{
+        font-size: 1rem;
+    }
+    .second-row-last-dark{
         font-size: 1rem;
     }
     .card{
@@ -1063,7 +1094,14 @@ li {
     .footer-details-inner{
         font-size: 1rem;
     }
+    .footer-details-inner-dark{
+        font-size: 1rem;
+    }
     .copyright-detail{
+        width: 12px;
+        height: 12px;
+    }
+    .copyright-detail-dark{
         width: 12px;
         height: 12px;
     }
@@ -1071,6 +1109,7 @@ li {
         margin-left: 5px;
         margin-right: 5px;
     }
+    
 
 
 
