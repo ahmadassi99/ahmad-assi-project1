@@ -128,6 +128,13 @@ h3{
     color: var(--body-text-dark);
     font-weight: 200;
 }
+.h4-welcome-detail {
+    margin-top: 1px;
+    font-family: Nunito Sans;
+    color: var(--body-text);
+    font-weight: 200;
+    margin-bottom: 10px;
+}
 
 .h2-welcome {
     margin-bottom: 1px;
@@ -521,9 +528,25 @@ li {
 .footer{
     padding-bottom: 20px;
 }
+.details-footer{
+  padding-bottom: 150px;
+  padding-top: 20px;
+}
 .footer-inner{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.footer-details-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-details-inner-dark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--body-text-dark);
 }
 .footer-inner-dark{
     display: flex;
@@ -549,12 +572,236 @@ li {
     height: 20px;
     margin-right: 6px;
 }
+.copyright-detail{
+    width: 14px;
+  height: 15px;
+    margin-right: 6px;
+}
+.copyright-detail-dark{
+    width: 14px;
+  height: 15px;
+    margin-right: 6px;
+    fill:var(--body-text-dark);
+}
 .copyright-dark{
     width: 20px;
     height: 20px;
     margin-right: 6px;
     fill: var(--body-text-dark);
 }
+/*here is css code for the detail page*/
+.detail-body{
+    background-color: var(--body-text);
+    padding-left: 250px;
+}
+.details-main-body{
+    background-color: var(--bg_body);
+}
+.details-main-body-dark{
+    background-color: var(--bg_body-dark);
+}
+.detail-topic h4{
+    padding-top: 20px;
+    margin-top:0;
+    margin-bottom: 0;
+    color: var(--brand-secondary);
+    font-weight: 200;
+    font-family: Nunito Sans;
+    font-size: 1rem;
+}
+.language h2{
+    margin-top: 0;
+  margin-bottom: 0;
+  color: var(--bg_body);
+  font-weight: 200;
+  font-family: Nunito Sans;
+  font-size: 1.5rem;
+}
+.stars {
+    padding-top: 5px;
+}
+.detail-context{
+    padding-top: 20px;
+  color: var(--bg_body);
+  font-weight: 200;
+  font-family: Nunito Sans;
+  font-size: 0.8rem;
+  width: 30%;
+  padding-bottom: 20px;
+}
+.detail-body{
+    padding-left: 250px;
+}
+.topics-list{
+    padding-top: 30px;
+}
+.topics-body{
+  
+ padding-left: 250px;
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.ionicon-check{
+    height: 20px;
+    width: 45px;
+    color: green;
+    margin: 5px 0;
+}
+.table{
+    background-color: var(--bg_default);
+    border-spacing: 0;
+    border:1px solid var(--lines-color);
+    border-radius: 5%;
+}
+.table-dark{
+    background-color: var(--bg_default-dark);
+    border-spacing: 0;
+    border:1px solid var(--lines-color-dark);
+    border-radius: 5%;
+}
+.row{
+    border-bottom: 1px solid var(--lines-color);
+}
+.row-dark{
+    border-bottom: 1px solid var(--lines-color-dark);
+}
+.second-row{
+  border-bottom: 1px solid var(--lines-color);
+  color: var(--body-text);
+  font-family: Nunito Sans;
+  padding-right: 60px;
+}
+.second-row-dark{
+    border-bottom: 1px solid var(--lines-color-dark);
+    color: var(--body-text-dark);
+    font-family: Nunito Sans;
+    padding-right: 60px;
+    
+  }
+
+.header-row{
+    border-bottom:1px solid var(--lines-color);
+}
+.header-row-dark{
+    border-bottom:1px solid var(--lines-color-dark);
+    color: var(--body-text-dark);
+}
+.row-last{ 
+    border:none;
+}
+.second-row-last{
+    border:none;
+}
+.second-row-last-dark{
+    border:none;
+    color: var(--body-text-dark);
+}
+
+.header-row h2{
+    padding-left: 20px;
+  font-family: Nunito Sans;
+  margin: 10px 0;
+
+}
+.header-row-dark h2{
+    padding-left: 20px;
+  font-family: Nunito Sans;
+  margin: 10px 0;
+  color: var(--body-text-dark);
+
+}
+.card{
+    margin-right: 15px;
+    background-color: var(--bg_default);
+    /* max-width: 300px; */
+    width: 25%;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-top: -15%;
+  max-height: 370px;
+}
+.card .card-context{
+    background-color: var(--bg_default);
+    /* padding: 35px 20px */
+    min-width: 300px;
+    min-height: 250px;
+    width: 100%; 
+}
+.card .card-context img{
+    width: 100%;
+    height: 160px;
+    margin-bottom: 5px;
+    object-fit: cover;
+    padding:5px
+}
+.card .card-context section span {
+    font-family: Nunito Sans;
+    font-weight: 700;
+    color: var(--body-text);
+    
+}
+.card .card-context section{
+    font-family: Nunito Sans;
+    margin:0;
+    font-weight: 200;
+    color: var(--body-text);
+    padding-left: 15px;
+}
+.card .card-context section a{
+    color: var(--brand-primary);
+    font-family: Nunito Sans;
+}
+.fav-box{
+    margin: 15px;
+  border: 1px solid var(--lines-color);
+}
+.fav-box h3{
+    font-family: Nunito Sans;
+    color: var(--body-text);
+    font-weight: 200;
+    font-size: 1rem;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+.fav-button{
+    display: flex;
+  align-items: center;
+  margin: auto;
+  background-color: var(--brand-secondary);
+  width: 85%;
+  border: none;
+}
+.fav-button h2{
+    padding-left: 15px;
+  color: var(--bg_body);
+  font-size: 1.3rem;
+  font-weight: 200;
+  padding-right: 15px;
+  font-family: Nunito Sans;
+}
+.fav-button .ion-heart{
+    width: 35px;
+  height: 35px;
+  color: var(--bg_default);
+}
+.fav-box h5{
+    font-family: Nunito Sans;
+  font-size: 0.8rem;
+  color: var(--body-text);
+  opacity: 0.5;
+  margin: 10px auto;
+  text-align: center;
+
+}
+.detail-ionicon-heart{
+    fill:var(--heart-color);
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 
 @media only screen and (max-width: 1300px) {
     .cards-list .card-item {
@@ -572,6 +819,72 @@ li {
     .cards-list .card-item-dark{
         width:30% ;
     }
+/* css media for the detail page changes */
+    .detail-body{
+        padding-left: 125px;
+    }
+    .detail-context{
+        width: 40%;
+    }
+    .topics-body{
+        padding-left:125px;
+    }
+    .topics-list{
+        width: 40%;
+    }
+    .header-row h2{
+        font-size: 1.2rem;
+        padding-left: 10px;
+        margin: 5px 0;
+    }
+    .ionicon-check{
+        height: 20px;
+        width: 30px;
+    }
+    .second-row{
+        font-size: 0.9rem;
+        padding-right: 0;
+    }
+    .second-row-last{
+        font-size: 0.9rem;
+    }
+    .card{
+        width: 30%;
+        margin-left: 30px;
+        margin-top: -20vh;
+        max-height: 320px;
+    }
+    .card .card-context{
+        min-width: 180px;
+    }
+    .card .card-context section{
+        font-size: 0.7rem;
+    }
+    .fav-box h3{
+        font-size: 0.7rem;
+    }
+    .fav-button h2{
+        font-size: 0.8rem;
+        margin: 0;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .fav-button .ion-heart{
+        width: 30px;
+        height: 30px;
+    }
+    .fav-box h5{
+        font-size: 0.6rem;
+    }
+    .footer-details-inner{
+        font-size: 0.8rem;
+    }
+    .copyright-detail{
+        width: 15px;
+        height: 15px;
+        
+    }
+
     
 }
 @media only screen and (max-width: 910px) {
@@ -669,6 +982,97 @@ li {
     .body-title-dark h1{
         font-size: 1.4rem;
     }
+    /* css media for the detail page changes */
+    .detail-topic h4{
+        font-size: 1.4rem;
+    }
+    .detail-body{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .detail-context{
+        width: 100%;
+        font-size: 1rem;
+    }
+    .topics-body{
+        padding-left:20px;
+        padding-right: 20px;
+        justify-content: center;
+    }
+    .topics-list{
+        width: 95%;
+        margin-bottom: 20px;
+        
+    }
+    .row{
+        padding-left: 10px;
+    }
+    .header-row h2{
+        font-size: 1.3rem;
+        padding-left: 15px;
+    }
+    .ionicon-check{
+        height: 25px;
+        width: 30px;
+    }
+    .second-row{
+        font-size: 1rem;
+        padding-right: 0px;
+    }
+    .row-last{
+        padding-left: 10px;
+    }
+    .second-row-last{
+        font-size: 1rem;
+    }
+    .card{
+        margin-top: 0;
+        width: 80%;
+        margin-left: 0px;
+        max-height: 400px;
+        margin-right: 0px;
+    }
+    .card .card-context img{
+        height: auto;
+    }
+    .card .card-context{
+        min-width: 180px;
+    }
+    .card .card-context section{
+        font-size: 1rem;
+    }
+    .fav-box h3{
+        font-size: 1rem;
+    }
+    .fav-button{
+        justify-content: center;
+    }
+    .fav-button h2{
+        font-size: 1.2rem;
+        margin: 0;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .fav-button .ion-heart{
+        width: 30px;
+        height: 30px;
+    }
+    .fav-box h5{
+        font-size: 0.8rem;
+    }
+    .footer-details-inner{
+        font-size: 1rem;
+    }
+    .copyright-detail{
+        width: 12px;
+        height: 12px;
+    }
+    .detail-ionicon-heart{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 
-    
+
+
+
 }
